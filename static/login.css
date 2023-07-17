@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background: rgb(199, 209, 251);
+    height: 100vh;
+}
+.box{
+    height: 100px;
+}
+.g-sign-in-btn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    display: inline-block;
+    width: 240px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(17, 17, 16);
+    border: 1rem ;
+    box-shadow: 
+
+}
+
+.g-sign-in-btn:hover{
+    cursor:pointer;
+
+}
+
+.g-sign-in-btn .content-wrapper{
+   
+    border: 1px solid transparent;
+}
+.g-sign-in-btn img{
+    width: 20px;
+    height: 20px;
+} 
+
+.g-sign-in-btn .logo-wrapper{
+    padding: 5px;
+    background: #fff;
+    display: inline-block;
+    
+}
+.g-sign-in-btn .txt-container{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 15px;
+    border: none;
+}
